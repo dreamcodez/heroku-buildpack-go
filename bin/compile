@@ -30,7 +30,7 @@ urlfor() {
         echo http://go.googlecode.com/files/$file
         ;;
     *)
-        echo https://storage.googleapis.com/golang/$file
+        echo http://golang.org/dl/$file
         ;;
     esac
 }
